@@ -1,0 +1,22 @@
+{
+  "name": "exame-programador-nodejs-pg",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --coverage"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.6.0",
+    "sequelize": "^6.32.1",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.1.6"
+  }
+}
