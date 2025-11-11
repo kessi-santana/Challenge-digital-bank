@@ -12,7 +12,7 @@ A arquitetura foi pensada para ser **simples, modular e de fácil manutenção**
 Cada camada possui uma responsabilidade bem definida:
 
 ```
-GraphQL Schema  →  Resolvers  →  Serviços (Lógica)  →  Banco de Dados (PostgreSQL)
+GraphQL Schema  →  Resolvers  →  Serviços →  Banco de Dados (PostgreSQL)
 ```
 
 **Fluxo geral:**
@@ -43,6 +43,8 @@ GraphQL Schema  →  Resolvers  →  Serviços (Lógica)  →  Banco de Dados (P
 - **Docker e Docker Compose**
 
 ---
+
+Lembre-se: é necessário ter o Node.js (versão 14 ou superior), o npm ou yarn e o Docker instalados na sua máquina.
 
 ## Como rodar o projeto
 
